@@ -1,0 +1,139 @@
+@import 'vars';
+
+.surfer {
+  height: 438px;
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+.surfer-img {
+  background-image: url(../img/Surfer_photo.jpg);
+  background-repeat: no-repeat;
+  max-width:1280px;
+  height: 438px;
+}
+
+.padding-all {
+  padding: 111px 132px 0 131px;
+}
+.surf-left {
+  display: flex;
+  width: 365px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.txt_btn {
+  margin-left: 28px;
+}
+
+.surf_left_txt {
+  width: 356px;
+  height: 100%;
+}
+
+.surf_left_txt h4 {
+  font-family: $font-lato;
+  color: rgba(34, 34, 36, 0.67);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.surf_left_txt span {
+  font-family: $font-lato;
+  color: #f16d7f;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.surf_left_txt p {
+  font-family: $font-lato;
+  color: #222224;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.surf_bt {
+  width: 140px;
+  height: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 59px;
+}
+
+.grey_bt {
+  width: 38px;
+  background-color: #d6d6d6;
+}
+
+.pink_bt {
+  width: 38px;
+  background-color: #f16d7f;
+}
+
+.surf-right {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  text-align: center;
+}
+
+.surf_right_txt h2 {
+  font-family: $font-lato;
+  color: rgba(34, 34, 36, 0.67);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 54px;
+  text-align: center;
+}
+
+.surf_right_txt h3 {
+  font-family: $font-lato;
+  color: rgba(34, 34, 36, 0.67);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.surf-right input {
+  padding-left: 31px;
+  background-color: #e1e1e1;
+  width: 334px;
+  height: 46px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  text-align: left;
+  font-family: $font-lato;
+  color: rgba(34, 34, 36, 0.67);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 54px;
+}
+
+.surf-right button {
+  background-color: #f16d7f;
+  width: 104px;
+  height: 46px;
+  font-family: $font-lato;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-left: -5px;
+  transition: background-color 1s;
+}
+
+.surf-right button:hover {
+  color: #f16d7f;
+  background-color: #ffffff;
+}

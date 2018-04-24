@@ -1,0 +1,50 @@
+.bread {
+  background-color: #f8f3f4;
+  width: 100%;
+  height: 148px;
+  & p {
+    font-family: 'Lato', sans-serif;
+    color: #636363;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 148px;
+    text-align: center;
+  }
+  & p:hover {
+    color: goldenrod;
+  }
+    & a {
+      text-decoration: none !important;
+    }
+
+  & h3 {
+    font-family: 'Lato', sans-serif;
+    color: #f16d7f;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 148px;
+    text-align: left;
+  }
+}
+
+.bread-nav-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.right_bread {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.bread span {
+  font-family: 'Lato', sans-serif;
+  color:  #f16d7f;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 148px;
+  text-align: center;
+}
